@@ -4,8 +4,8 @@ import { navLinks } from "../constants";
 const NavBar = () => {
     return (
         <Fragment>
-            <header className="flex justify-between px-12 py-4">
-                <img src={logo} className="cursor-pointer w-28 object-contain" />
+            <header className="flex justify-between px-10 py-4 gap-x-6">
+                <img src={logo} className="cursor-pointer w-25 object-contain" />
                 <div className="hidden items-center lg:flex gap-x-6">
                     {navLinks.map((val)=>{
                         return(
