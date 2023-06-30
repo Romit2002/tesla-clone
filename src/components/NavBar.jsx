@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <Fragment>
             <header className="flex justify-between px-12 py-4">
-                <img src={logo} className="w-28 object-contain" />
+                <img src={logo} className="cursor-pointer w-28 object-contain" />
                 <div className="hidden items-center lg:flex gap-x-6">
                     {navLinks.map((val)=>{
                         return(
