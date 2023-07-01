@@ -40,7 +40,7 @@ import {
       id: "model3",
       img: model3,
       title: "Model 3",
-      desc: "Leasing starting at $349/mo",
+      desc: "Leasing starting at $349/month",
       button: ["Custom Order", "Demo Drive"],
     },
     {
